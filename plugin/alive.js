@@ -102,7 +102,7 @@ footer: proto.Message.InteractiveMessage.Footer.create({
   text: "> SHANI-MD"
 }),
 header: proto.Message.InteractiveMessage.Header.create({
-    ...(await prepareWAMessageMedia({ image : fs.readFileSync('../../media/red-alive.png')}, { upload: Fox.waUploadToServer})), 
+    ...(await prepareWAMessageMedia({ image : fs.readFileSync('../../media/IMG-20240809-WA0054.jpg')}, { upload: Fox.waUploadToServer})), 
       title: ``,
       gifPlayback: true,
       subtitle: "",
